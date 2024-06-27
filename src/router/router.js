@@ -1,7 +1,8 @@
 import { createWebHistory, createRouter } from "vue-router";
 import main from "../pages/main.vue";
 import one from "../pages/one.vue";
-import two from "../pages/two.vue";
+import two_1 from "../pages/two_1.vue";
+import two_2 from "../pages/two_2.vue";
 import three from "../pages/three.vue";
 import four from "../pages/four.vue";
 import five from "../pages/five.vue";
@@ -18,8 +19,12 @@ const routes = [
     component: one
   },
   {
-    path: '/2',
-    component: two
+    path: '/2_1',
+    component: two_1
+  },
+  {
+    path: '/2_2',
+    component: two_2
   },
   {
     path: '/3',

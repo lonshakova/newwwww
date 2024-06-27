@@ -1,5 +1,5 @@
 <template>
-  <HeaderMenu/>
+  <HeaderMenu v-if="false"/>
   <router-view/>
 </template>
 

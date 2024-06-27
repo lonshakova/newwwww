@@ -2,7 +2,8 @@
   <div class="btns">
     <button class="btn transition" @click="this.$router.push('/')"><span class="mdi mdi-close-circle-outline"></span></button>
     <button class="btn transition" @click="this.$router.push('/1')">1</button>
-    <button class="btn transition" @click="this.$router.push('/2')">2</button>
+    <button class="btn transition" @click="this.$router.push('/2_1')">2.1</button>
+    <button class="btn transition" @click="this.$router.push('/2_2')">2.2</button>
     <button class="btn transition" @click="this.$router.push('/3')">3</button>
     <button class="btn transition" @click="this.$router.push('/4')">4</button>
     <button class="btn transition" @click="this.$router.push('/5')">5</button>
