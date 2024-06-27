@@ -1,9 +1,15 @@
 <template>
-  <one/>
+  <HeaderMenu/>
+  <router-view/>
 </template>
 
-<script setup>
-import one from './components/one.vue'
+<script>
+import HeaderMenu from './components/HeaderMenu.vue';
+export default {
+  components:{
+    HeaderMenu
+  },
+};
 </script>
 
 <style scoped>
