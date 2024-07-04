@@ -4,7 +4,8 @@
     <button class="btn transition" @click="this.$router.push('/1')">1</button>
     <button class="btn transition" @click="this.$router.push('/2_1')">2.1</button>
     <button class="btn transition" @click="this.$router.push('/2_2')">2.2</button>
-    <button class="btn transition" @click="this.$router.push('/3')">3</button>
+    <button class="btn transition" @click="this.$router.push('/3_1')">3.1</button>
+    <button class="btn transition" @click="this.$router.push('/3_2')">3.2</button>
     <button class="btn transition" @click="this.$router.push('/4')">4</button>
     <button class="btn transition" @click="this.$router.push('/5')">5</button>
     <button class="btn transition" @click="this.$router.push('/6')">6</button>
@@ -23,7 +24,7 @@
 }
 
 .btn{
-  margin: 50px;
+  margin: 50px 40px;
   height: 50px;
   width: 50px;
   background-color:darkcyan;
@@ -33,7 +34,7 @@
   border-radius: 20px;
 }
 .btn:hover{
-  margin: 25px 25px;
+  margin: 25px 15px;
   height: 100px;
   width: 100px;
   border-radius: 50px;

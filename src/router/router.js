@@ -3,7 +3,8 @@ import main from "../pages/main.vue";
 import one from "../pages/one.vue";
 import two_1 from "../pages/two_1.vue";
 import two_2 from "../pages/two_2.vue";
-import three from "../pages/three.vue";
+import three_1 from "../pages/three_1.vue";
+import three_2 from "../pages/three_2.vue";
 import four from "../pages/four.vue";
 import five from "../pages/five.vue";
 import six from "../pages/six.vue";
@@ -27,8 +28,12 @@ const routes = [
     component: two_2
   },
   {
-    path: '/3',
-    component: three
+    path: '/3_1',
+    component: three_1
+  },
+  {
+    path: '/3_2',
+    component: three_2
   },
   {
     path: '/4',

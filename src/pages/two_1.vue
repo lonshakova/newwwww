@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="wrapper"
-    >
+  <div class="wrapper">
     <div class="sample">
       <div @submit.prevent v-if="!isDataSend">
         <div class="progress" >
